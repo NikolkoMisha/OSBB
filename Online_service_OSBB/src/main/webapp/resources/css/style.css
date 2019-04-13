@@ -1,0 +1,838 @@
+@charset "UTF-8";
+
+*{
+    color: #3e3e3e;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: Roboto;
+}
+
+textarea{
+    border-radius: 0;
+}
+nav{
+    margin-bottom: 0px !important;
+}
+.navbar-default{
+    background-color: #fff;
+    border-color: #003489;
+}
+
+.menu li>a{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+    padding-left: 30px;    
+}
+a.navbar-brand{
+    height: inherit;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+p{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+a:hover{
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+a:visited{
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+.btn{
+    border-radius: 0;
+}
+body {
+    background-color: #fff;
+}
+.head-menu:hover{
+    color: white;
+    background-color: #003489;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
+        color: white;
+    background-color: #003489;
+}
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: #003489;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+    color: #fff;
+}
+.navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    color: #fff;
+    background-color: #003489;
+}
+.navbar-default .navbar-nav>.open>a:focus span, .navbar-default .navbar-nav>.open>a:hover span{
+    color: #fff;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+    background-color: #003489;
+    color: #fff;
+}
+.foot{
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #f8f8f8;
+    border-top: 1px solid #e7e7e7;
+}
+.navbar{
+    border-radius: 0;
+    border-width: 0 0 2px 0;
+}
+.indent-by-15{
+    margin-top: 15px;
+}
+.drop-menu-border{
+    border-top: 2px solid #003489; 
+}
+
+
+/*головна*/
+.main-welcome{
+    font-weight: 300;
+}
+.news {
+/*    border-right: 1px solid silver; */
+    margin-top: 15px;
+    padding-left: 15px; 
+ }
+.news a {
+    color: black;
+ }
+.news a:hover{
+    color: silver;
+/*    text-decoration: none;*/
+ }
+.news_main{
+    border: 1px solid #ddd;
+    padding: 15px 10px;
+}
+.news-title h4{
+    margin-bottom: 0;
+}
+.news-cont{
+    font-size: 16px;
+}
+.opros{
+    margin-top: 15px;
+    border: 1px solid #ddd;
+    padding: 15px 10px;
+}
+.main-content{
+    margin-top: 15px;
+    border: 1px solid #ddd;
+    padding: 15px 10px;
+}
+.main-announce{
+    margin-top: 0;
+    margin-bottom: 24px;
+    font-weight: 300;
+}
+.announce{
+    margin-top: 0;
+    font-weight: 300;
+}
+.announce span{
+    padding-left: 10px;
+    font-size: 12px;
+}
+
+.slaider img{
+    height: auto;
+    width: 100%;
+}
+
+
+/* NEWS */
+.uncos-title{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    padding: 15px 0;
+}
+.uncos-title h1{
+    margin: 0;
+    font-weight: 300;
+}
+.uncos-main{
+    padding: 0 15px 0 0;
+}
+.uncos-content1 h3{
+    font-weight: 300;
+}
+.uncos-content1 p{
+    padding: 3% 0 3% 0;
+}
+.uncos-border{
+    border: 1px solid #ddd;
+    width: 60%;
+    margin-left: 20%;
+}
+.uncos-second{
+    padding: 0;
+    border: 0.5px solid #ddd;
+}
+.uncos-second h1{
+    font-weight: 300;
+    font-size: 32px;
+}
+.uncos-second h3{
+    font-weight: 300;
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 0 15px;
+}
+.uncos-content2{
+    text-align: center;
+    padding-top: 3%;
+}
+.uncos-border1{
+    border: 0.5px solid #ddd;
+    width: 70%;
+    margin-left: 15%;
+}
+.img-responsive{
+    margin: 0 auto;
+}
+.uncos-main img{
+    height: 150px;
+    width: 30%;
+    float: left;
+}
+.uncos-second img{
+    height: 200px;
+    width: 80%;
+}
+.uncos-text{
+    height: auto; 
+}
+/* кнопка додати */
+.addnews-submit{
+    padding: 6px 40px;
+    border-color: #003984;
+}
+
+
+
+
+
+/*оплата*/
+.part-menu{
+    background-color: #fff;
+    border: 1px solid #003984;
+    margin-top: 15px;
+    margin-right: 5px;
+    
+}
+.part-menu>a{
+    font-size: 18px;
+    padding-left: 0;
+    padding-right: 0;
+    line-height: 50px;
+    font-weight: 300;
+}
+.active-part-menu{
+    background-color: #003984;
+    color: #fff;
+}
+.pay-border-title{
+    padding-left: 0px;
+/*    border-bottom: 2px solid #003984;*/
+}
+.pay-menu{
+/*
+    padding-right: px;
+    margin-right: 0px;
+*/
+}
+.pay-main-content{
+    padding-left: 35px;
+}
+.pokaz-input{
+    border-radius: 0;
+}
+.pay-elextro-pokaz-btn{
+    margin-top: 15px;
+}
+.pay-title{
+    border-bottom: 2px solid #003984;
+    padding-bottom: 10px;
+    font-weight: 300;
+    font-size: 28px;
+    margin-top: 25px;
+    margin-bottom: 0px;
+}
+.pay-vymir{
+    padding: 0;
+}
+.pay-vymir>p{
+    line-height: 34px;
+    font-size: 17px;
+}
+.pay-pokazy-submit{
+    width: 100%;
+    border-color: #003984;
+}
+.pay-kvitanc{
+
+    width: 100%;
+}
+.pay-form{
+    margin-top: 15px;
+    border: 1px solid #003984;
+    padding: 15px 15px;
+    width: 100%;
+}
+.pay-vymir-oplata{
+    padding: 0;
+}
+.pay-vymir-oplata>p{
+    line-height: 34px;
+}
+.pay-card{
+    margin-top: 40px;
+}
+.pay-taryf{
+    width: 80%;
+    margin-left: 10%;
+    padding: 0 20px;
+}
+.pay-taryf td{
+    width: 30%;
+    border: 1px solid #bbb;
+}
+
+.pay-title-last-kvit{
+    margin-top: 70px;
+}
+.pay-last-kvit{
+    padding-top: 20px;
+    padding-left: 15px;
+    width: 80%;
+}
+.pay{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.pay-border{
+
+}
+
+.last-pokaz{
+    margin-top: 15px;
+}
+.last-pokaz td{
+    width: 25%;
+    border: 1px solid #003984;
+}
+.table-title>td{
+    color: #fff;
+    background-color: #003984;
+    padding: 7px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.pay-table{
+    margin-top: 15px;
+}
+.pay-table-head{
+     background-color: #003489;
+}
+.pay-table-head th{
+    color: #fff;
+}
+.pay-table-responsive{
+    padding: 0;
+}
+.table>thead>tr>th {
+    vertical-align: middle;
+    border-bottom: 2px solid #ddd;
+}
+
+.label_pokazy{
+    padding-top: 10px;
+}
+.table_pokazy_head{
+    vertical-align: middle;
+
+    margin-right: 0px;
+    background-color: #003489;
+    border-bottom: 2px solid rgba(211, 225, 247, 0.9);
+}
+.table_pokazy_head>div{
+    color: white;
+   
+    line-height: 30px;
+    
+}
+
+
+
+
+
+
+/*CONTACTS*/
+.contacts-contact{
+    border: 1px solid #ddd;
+    margin-top: 15px;
+    padding: 0px;
+}
+.contacts-contact>h1{
+    margin-top: 0;
+    padding: 15px 0 0 15px;
+    font-size: 30px;
+    font-weight: 300;
+}
+.contacts-contact h3{
+    font-size: 24px;
+    font-weight: 300;
+    padding-left: 30px;
+}
+.contacts-contact h4{
+    font-weight: 300;
+}
+.contacts-contact>hr{
+    margin: 10px 0;
+}
+.contacts-contact>p{
+    padding-top: 5px;
+}
+.contacts-map{
+    margin-top: 15px;
+    padding: 0;
+}
+.contacts-content>h4{
+	font-size:
+}
+.contacts-content{
+	padding:0;
+    border: 1px solid #ddd;
+    border-width: 1px 1px 1px 0; 
+}
+.contacts-content1{
+    border: 1px solid #ddd;
+    border-width: 1px 0 1px 0; 
+}
+.contacts-message{
+    margin-top: 2%;
+    border: 1px solid #ddd;
+}
+.contacts-message h1{
+    font-weight: 300;
+}
+.contacts-message input{
+    border-radius: 0;
+}
+.contacts-message textarea{
+    border-radius: 0;
+}
+
+.contact-pad{
+    padding-left: 15px;
+}
+
+
+
+
+/*TARIFF*/
+.tariff-table{
+    width: 100%;
+    padding: 0 20px;
+}
+.tariff-table td{
+    border: 1px solid #bbb;
+}
+.tariff-table-title>td{
+    background-color: #ddd;
+    padding: 7px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.table-head{
+    margin-right: 0px;
+    background-color: #003489;
+    border-bottom: 2px solid rgba(211, 225, 247, 0.9);
+}
+.table-head>div{
+    color: white;
+    line-height: 40px;
+}
+.table_row{
+    margin-right: 0px;
+    border-bottom: 1px solid lightgray;
+    line-height: 40px;
+}
+
+.pokazy_table{
+    margin-left: 15px;
+    margin-right: -15px;
+} 
+.pokazy_table .table-head{
+    margin-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.tariff-title h2{
+    font-weight: 300;
+}
+.tariff-tab-10{
+    width: 10%;
+}
+.tariff-tab-45{
+    width: 45%;
+}
+.tarif-change{
+    padding-left: 0;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.tarif-change>span{
+    font-size: 20px;
+}
+
+
+
+/*ENTER*/
+.enter-main{
+    margin-top: 10%;
+    border: 1px solid #003489;
+    width: 100%;
+    padding: 15px;
+}
+.enter-main h3{
+    margin: 0;
+    font-weight: 300;
+    
+}
+.enter-main-group{
+    width: 100%;
+}
+.enter-lable{
+    font-weight: 300;
+    font-size: 21px;
+}
+.enter-group{
+    margin-top: 15px;
+}
+
+/* BALANCE */
+.balance{
+    padding: 0 15px 0 15px; 
+}
+.balance-button{
+    border: 1px solid #003489;
+}
+.balance-button h3{
+    margin: 10px;
+    font-weight: 300;
+}
+.balance-button11{
+    background-color: #003489;
+    text-decoration: none;
+    color: white;
+}
+.balance-button12{
+    background-color: #fff;
+     text-decoration: none;
+}
+.balance-button12:hover{
+    background-color: #003489;
+    color: white;
+}
+.balance-button22{
+    background-color: #003489;
+    text-decoration: none;
+    color: white;
+
+}
+.balance-button21{
+    background-color: #fff;
+    text-decoration: none;
+
+}
+.balance-button21:hover{
+    background-color: #003489;
+    color: white;
+}
+.balance-table{
+    padding-top: 15px; 
+}
+.balance-table thead{
+     background-color: #003489;
+     color: white;
+}
+.balance-table th{
+    color: white;
+    text-align: center;
+    width: 50%;
+}
+.balance-table td{
+    width: 50%;
+}
+.balance-under-but{
+    border: 1px solid #003489;
+}
+.balance-under-but p{
+   line-height: 32px;
+}
+.balance-under-but:hover{
+	color:#fff;
+    background-color: #003489;
+    cursor: pointer;
+}
+.balance-under-but:hover p{
+    color: white;
+    cursor: pointer;
+}
+
+
+
+
+.hello-text > p{
+    line-height: 60px;
+}
+
+
+/*CABINET*/
+.menu-hr{
+    margin: 0;
+    margin-left: 20%;
+    width: 60%;
+    border-top: 2px solid #003489;
+}
+.cab-menu{
+    padding: 15px 0;
+    
+}
+.cab-menu h4{
+    font-weight: 300;
+}
+.cab-menu:hover{
+    background-color: #003489;
+}
+.cab-menu:hover h4{
+    color: white;
+}
+.cab-inf-content{
+    margin-top: 15px;
+    border: 1px solid #003489;
+}
+.cab-inf-content>h4{
+    font-weight: 300;
+}
+.cab-inf-content>h2{
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+.tableOccupants{
+    padding-top: 20px;
+}
+
+.bal_dod{
+    padding: 0;
+}
+.bal_dod>input{
+    border-radius: 0;
+}
+
+
+/*DODATOK*/
+
+.dod_cell{
+    border: 1px solid #003489;
+    line-height: 150px;
+}
+.dod_cell:hover{
+    background-color: #003489;
+    color: white;
+    border: 1px solid white;
+}
+.dod_row{
+    margin-top: 15px;
+}
+
+.dod_icon{
+     
+    padding-right:0px;
+}
+.dod_icon>span{
+    line-height:33px;
+}
+.deb_dod{
+    margin-bottom: 15px;
+}
+.deb_dod>div>input{
+    border-radius: 0;
+}
+.deb_but{
+    cursor: pointer;
+    
+}
+
+/*CHAT*/
+
+.bord-chat{
+    margin-top: 15px;
+    border: 1px solid #003489;
+}
+.chat_row{
+    margin-top: 20px;
+}
+.chat_text{
+    padding-left: 0;
+   
+}
+.chat_text p{
+white-space: pre-line;
+}
+
+
+.chat_text>p{
+    font-size: 16px;  
+}
+
+.chat_mess{
+    border-top: 1px solid #003489;
+    padding-top: 15px;
+}
+.chat_mess>textarea{
+    font-size: 16px;
+}
+.chat_but>input{
+    border-radius: 0;
+}
+
+
+/*KVITANCII*/
+.bord_kvit_bot{
+    border-bottom: 1px solid #003489;
+}
+.bord_kvit_top{
+    border-top: 1px solid #003489;
+}
+.bord_left{
+    border-right: 1px solid #003489;
+}
+.bord_right{
+    border-left: 1px solid #003489;
+}
+.kvit-left-col{
+    border: 1px solid #003489;
+    padding: 0;
+}
+.kvit-left-col p{
+    font-size: 13px;
+    padding: 0 5px;
+}
+.kvit-right-col{
+    border: 1px solid #003489;
+    padding: 0 5px;
+}
+.kvit-right-col p{
+    font-size: 14px;
+
+}
+.kvit-right-col nobr{
+    font-size: 14px;
+
+}
+.pad0{
+    overflow-x: hidden;
+    padding: 0px;
+}
+.dan_kvit .pad0{
+    overflow-x: hidden;
+    height: 20px;
+}
+.mar{
+    margin-top:7px;
+}
+.kvit_pokaz p{
+    overflow-x: hidden;
+    height: 20px;
+}
+.kvit_pokaz nobr{
+    overflow-x: hidden;
+    height: 20px;
+}
+.hei{
+    height: 90px;
+
+}
+
+/*OSBBIFO*/
+.osbbinfo_inf label{
+	font-weight:300;
+	margin-bottom:10px;
+}
+.osbbinfo_change label{
+	font-weight:300;
+	padding-right:0;
+	padding-left:0;
+	font-size:17px;
+}
+.osbbinfo_change input{
+	border-radius:0;
+}
+.osbb_workers input{
+	border-radius:0;
+}
+.osbb_workers label{
+	font-weight:300;
+}
+.photo_input{
+    border-radius: 0;
+}
+.photo_label{
+    margin: 0;
+    font-weight: 300;
+    line-height: 34px;
+}
+.carousel-inner>.item img{
+    max-height: 600px;
+    max-width: 100%;
+}
+.photo_preview img{
+    max-height: 100px;
+    max-width: 100%;
+    
+}
+.photo_name{
+    line-height: 100px;
+}
+.photo_button{
+    line-height: 100px;
+}
+.photo_button button{
+    width: 70%;
+}
+
+
+
+
+
+
+
